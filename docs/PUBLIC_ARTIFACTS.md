@@ -5,8 +5,10 @@ Public artifacts available in this repository:
 - README overview: `README.md`
 - Product overview: `docs/PRODUCT_OVERVIEW.md`
 - Architecture documentation: `docs/ARCHITECTURE.md`
+- Architecture diagram: `assets/diagrams/architecture.svg`
+- Mermaid source: `assets/diagrams/architecture.mmd`
 - Lessons learned: `docs/LESSONS_LEARNED.md`
-- Screenshot notes: `docs/SCREENSHOTS.md`
+- Visual artifact guide: `docs/SCREENSHOTS.md`
 - What this proves: `docs/WHAT_THIS_PROVES.md`
 - What this does not claim: `docs/WHAT_THIS_DOES_NOT_CLAIM.md`
 - 104 project summary: `docs/104_PROJECT_SUMMARY.md`

@@ -2,6 +2,11 @@
 
 WorldPeace DAO is structured as a public Web3 DApp frontend showcase.
 
+## Diagram
+
+- `assets/diagrams/architecture.svg`
+- `assets/diagrams/architecture.mmd`
+
 Core areas:
 
 - Wallet connection

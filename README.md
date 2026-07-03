@@ -1,5 +1,10 @@
 # WorldPeace DAO - On-chain Charity DApp & Governance Platform
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Chris%20Chuang-0f172a?style=flat-square)](https://github.com/0xChrisSKR)
+![Status](https://img.shields.io/badge/Status-Public%20Prototype-7c3aed?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Web3%20DApp-2563eb?style=flat-square)
+![Claims](https://img.shields.io/badge/Claims-Verifiable%20Only-16a34a?style=flat-square)
+
 WorldPeace DAO is a Web3 DApp prototype combining wallet, DAO governance, treasury transparency, charity DEX, token-gated community, whitepaper, and Unity WebGL game entry.
 
 The project explores how blockchain can support community proposals, transparent treasury flows, small-donation concepts, and Web3 product interaction in a single public-facing DApp.
@@ -118,6 +123,14 @@ WorldPeace DAO is an on-chain charity DApp and governance platform prototype. It
 ## Relation to the Portfolio Narrative
 
 WorldPeace DAO is the earliest public product in the portfolio lineage: WorldPeace DAO -> C-Chain Infrastructure -> Immune RPC Gate -> TRACE ProofFeed -> TRACE AI Platform.
+
+## Portfolio Ecosystem
+
+- WorldPeace DAO: this repository
+- C-Chain: https://github.com/0xChrisSKR/cchain-system-showcase
+- Immune RPC Gate: https://github.com/0xChrisSKR/immune-rpc-gate
+- TRACE ProofFeed: https://github.com/TRACE-CChain-Labs/trace-prooffeed-solana-agent
+- TRACE AI Platform: https://github.com/0xChrisSKR/trace-ai-platform-showcase
 
 ## What A Reviewer Can Verify
 
