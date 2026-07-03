@@ -5,6 +5,7 @@ Public artifacts available in this repository:
 - README overview: `README.md`
 - Product overview: `docs/PRODUCT_OVERVIEW.md`
 - Architecture documentation: `docs/ARCHITECTURE.md`
+- Lessons learned: `docs/LESSONS_LEARNED.md`
 - Screenshot notes: `docs/SCREENSHOTS.md`
 - What this proves: `docs/WHAT_THIS_PROVES.md`
 - What this does not claim: `docs/WHAT_THIS_DOES_NOT_CLAIM.md`

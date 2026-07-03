@@ -1,6 +1,6 @@
 # Screenshot Assets
 
-This folder stores public-safe screenshots for the WorldPeace DAO showcase.
+This folder stores public screenshots for the WorldPeace DAO showcase.
 
 Recommended files:
 

@@ -1,6 +1,6 @@
 # WorldPeace DAO - On-chain Charity DApp & Governance Platform
 
-WorldPeace DAO is a public-safe showcase of a Web3 DApp prototype combining wallet, DAO governance, treasury transparency, charity DEX, token-gated community, whitepaper, and Unity WebGL game entry.
+WorldPeace DAO is a Web3 DApp prototype combining wallet, DAO governance, treasury transparency, charity DEX, token-gated community, whitepaper, and Unity WebGL game entry.
 
 The project explores how blockchain can support community proposals, transparent treasury flows, small-donation concepts, and Web3 product interaction in a single public-facing DApp.
 
@@ -83,6 +83,7 @@ https://dao.worldpeace-bnb.org/
 - Product overview: [docs/PRODUCT_OVERVIEW.md](docs/PRODUCT_OVERVIEW.md)
 - Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Public artifacts: [docs/PUBLIC_ARTIFACTS.md](docs/PUBLIC_ARTIFACTS.md)
+- Lessons learned: [docs/LESSONS_LEARNED.md](docs/LESSONS_LEARNED.md)
 - 104 summary: [docs/104_PROJECT_SUMMARY.md](docs/104_PROJECT_SUMMARY.md)
 - Screenshots: [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md)
 - What this proves: [docs/WHAT_THIS_PROVES.md](docs/WHAT_THIS_PROVES.md)
@@ -117,3 +118,10 @@ WorldPeace DAO is an on-chain charity DApp and governance platform prototype. It
 ## Relation to the Portfolio Narrative
 
 WorldPeace DAO is the earliest public product in the portfolio lineage: WorldPeace DAO -> C-Chain Infrastructure -> Immune RPC Gate -> TRACE ProofFeed -> TRACE AI Platform.
+
+## What A Reviewer Can Verify
+
+- The live demo.
+- The product modules through screenshots.
+- The product overview and architecture documents.
+- The claim boundary around prototype status, donation volume, TVL, and source-code exposure.
