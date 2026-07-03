@@ -1,0 +1,1 @@
+On-chain charity DApp and governance platform prototype with wallet, treasury, charity DEX, token-gated community, and Unity WebGL integration.
