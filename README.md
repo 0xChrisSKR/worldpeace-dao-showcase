@@ -78,6 +78,16 @@ Screenshot notes are documented in [`docs/SCREENSHOTS.md`](docs/SCREENSHOTS.md).
 
 https://dao.worldpeace-bnb.org/
 
+## Public Artifacts
+
+- Product overview: [docs/PRODUCT_OVERVIEW.md](docs/PRODUCT_OVERVIEW.md)
+- Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- Public artifacts: [docs/PUBLIC_ARTIFACTS.md](docs/PUBLIC_ARTIFACTS.md)
+- 104 summary: [docs/104_PROJECT_SUMMARY.md](docs/104_PROJECT_SUMMARY.md)
+- Screenshots: [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md)
+- What this proves: [docs/WHAT_THIS_PROVES.md](docs/WHAT_THIS_PROVES.md)
+- What this does not claim: [docs/WHAT_THIS_DOES_NOT_CLAIM.md](docs/WHAT_THIS_DOES_NOT_CLAIM.md)
+
 ## What This Project Proves
 
 - Full product planning from community idea to public DApp surface
@@ -103,3 +113,7 @@ WorldPeace DAO is presented as a Web3 DApp product prototype and public showcase
 ## Resume / 104 Summary
 
 WorldPeace DAO is an on-chain charity DApp and governance platform prototype. It combines WorldPeace Wallet, DAO Governance, Treasury, Charity DEX, Guild, Chat, Whitepaper, and Unity WebGL game entry. The project explores small-donation concepts, community proposals, transparent treasury design, wallet interaction, token-gated community logic, and Web3 product architecture on BSC / BNB Smart Chain.
+
+## Relation to the Portfolio Narrative
+
+WorldPeace DAO is the earliest public product in the portfolio lineage: WorldPeace DAO -> C-Chain Infrastructure -> Immune RPC Gate -> TRACE ProofFeed -> TRACE AI Platform.
