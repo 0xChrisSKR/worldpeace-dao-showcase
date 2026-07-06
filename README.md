@@ -104,7 +104,7 @@ https://dao.worldpeace-bnb.org/
 - Performance notes: [docs/PERFORMANCE.md](docs/PERFORMANCE.md)
 - Security notes: [docs/SECURITY.md](docs/SECURITY.md)
 - Future work: [docs/FUTURE_WORK.md](docs/FUTURE_WORK.md)
-- Career mapping: [docs/CAREER_MAPPING.md](docs/CAREER_MAPPING.md)
+- Reviewer notes: [docs/CAREER_MAPPING.md](docs/CAREER_MAPPING.md)
 
 ## Local Deployment Preview
 
@@ -140,15 +140,7 @@ The deployment preview is for repository review and portfolio evaluation. It doe
 
 ## What This Does Not Claim
 
-- No production donation volume
-- No TVL
-- No active DAO userbase claim
-- No investment return
-- No completed real-world charity execution claim
-- No private key custody
-- No source-code mirror
-
-WorldPeace DAO is presented as a Web3 DApp product prototype and public showcase.
+Prototype only. No TVL, donation volume, investment return, active DAO userbase, private key custody, or completed real-world charity execution is claimed.
 
 ## Resume / 104 Summary
 
@@ -158,14 +150,11 @@ WorldPeace DAO is an on-chain charity DApp and governance platform prototype. It
 
 WorldPeace DAO is the earliest public product in the portfolio lineage: WorldPeace DAO -> C-Chain Infrastructure -> Immune RPC Gate -> TRACE ProofFeed -> TRACE AI Platform.
 
-## Portfolio Ecosystem
+## Related Projects
 
-- WorldPeace DAO: this repository
-- C-Chain: https://github.com/0xChrisSKR/cchain-system-showcase
-- Immune RPC Gate: https://github.com/0xChrisSKR/immune-rpc-gate
+- C-Chain System: https://github.com/0xChrisSKR/cchain-system-showcase
 - TRACE ProofFeed: https://github.com/TRACE-CChain-Labs/trace-prooffeed-solana-agent
-- TRACE AI Platform: https://github.com/0xChrisSKR/trace-ai-platform-showcase
-- GO2 Agent Lab: https://github.com/0xChrisSKR/go2-agent-lab
+- GitHub Profile: https://github.com/0xChrisSKR
 
 ## What A Reviewer Can Verify
 
