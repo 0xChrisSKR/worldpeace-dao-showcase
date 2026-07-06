@@ -1,5 +1,7 @@
 # WorldPeace DAO - On-chain Charity DApp & Governance Platform
 
+[![CI](https://github.com/0xChrisSKR/worldpeace-dao-showcase/actions/workflows/ci.yml/badge.svg)](https://github.com/0xChrisSKR/worldpeace-dao-showcase/actions/workflows/ci.yml)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-Chris%20Chuang-0f172a?style=flat-square)](https://github.com/0xChrisSKR)
 ![Status](https://img.shields.io/badge/Status-Public%20Prototype-7c3aed?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Web3%20DApp-2563eb?style=flat-square)
@@ -82,6 +84,38 @@ Screenshot notes are documented in [`docs/SCREENSHOTS.md`](docs/SCREENSHOTS.md).
 ## Demo
 
 https://dao.worldpeace-bnb.org/
+
+
+## Engineering Assets
+
+![System overview](assets/system-overview.png)
+
+![Architecture](assets/architecture.png)
+
+![Runtime](assets/runtime.png)
+
+![Deployment](assets/deployment.png)
+
+- CI workflow: [.github/workflows/ci.yml](.github/workflows/ci.yml)
+- Deployment preview: [Dockerfile](Dockerfile), [docker-compose.yml](docker-compose.yml), [.env.example](.env.example)
+- API examples: [docs/API_EXAMPLES.md](docs/API_EXAMPLES.md)
+- Folder structure: [docs/FOLDER_STRUCTURE.md](docs/FOLDER_STRUCTURE.md)
+- Engineering notes: [docs/ENGINEERING_NOTES.md](docs/ENGINEERING_NOTES.md)
+- Performance notes: [docs/PERFORMANCE.md](docs/PERFORMANCE.md)
+- Security notes: [docs/SECURITY.md](docs/SECURITY.md)
+- Future work: [docs/FUTURE_WORK.md](docs/FUTURE_WORK.md)
+- Career mapping: [docs/CAREER_MAPPING.md](docs/CAREER_MAPPING.md)
+
+## Local Deployment Preview
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Open `http://localhost:8080` after the container starts. This preview serves the public showcase package only.
+
+The deployment preview is for repository review and portfolio evaluation. It does not expose private infrastructure, secrets, production topology, or private source code.
 
 ## Public Artifacts
 

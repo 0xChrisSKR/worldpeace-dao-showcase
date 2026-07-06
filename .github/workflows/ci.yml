@@ -1,0 +1,76 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install root dependencies if present
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install
+          else
+            echo "No root package.json found."
+          fi
+
+      - name: Install web dependencies if present
+        run: |
+          if [ -f web/package-lock.json ]; then
+            cd web && npm ci
+          elif [ -f web/package.json ]; then
+            cd web && npm install
+          else
+            echo "No web package.json found."
+          fi
+
+      - name: Build if available
+        run: |
+          if [ -f package.json ] && node -e "const p=require('./package.json'); process.exit(p.scripts && p.scripts.build ? 0 : 1)"; then
+            npm run build
+          elif [ -f web/package.json ] && node -e "const p=require('./web/package.json'); process.exit(p.scripts && p.scripts.build ? 0 : 1)"; then
+            cd web && npm run build
+          else
+            echo "No build script found."
+          fi
+
+      - name: Lint if available
+        run: |
+          if [ -f package.json ] && node -e "const p=require('./package.json'); process.exit(p.scripts && p.scripts.lint ? 0 : 1)"; then
+            npm run lint
+          elif [ -f web/package.json ] && node -e "const p=require('./web/package.json'); process.exit(p.scripts && p.scripts.lint ? 0 : 1)"; then
+            cd web && npm run lint
+          else
+            echo "No lint script found."
+          fi
+
+      - name: Typecheck if available
+        run: |
+          if [ -f package.json ] && node -e "const p=require('./package.json'); process.exit(p.scripts && p.scripts.typecheck ? 0 : 1)"; then
+            npm run typecheck
+          elif [ -f web/package.json ] && node -e "const p=require('./web/package.json'); process.exit(p.scripts && p.scripts.typecheck ? 0 : 1)"; then
+            cd web && npm run typecheck
+          elif [ -f tsconfig.json ]; then
+            npx tsc --noEmit
+          elif [ -f web/tsconfig.json ]; then
+            cd web && npx tsc --noEmit
+          else
+            echo "No TypeScript config found."
+          fi
+
+      - name: Repository validation
+        run: node tools/validate-repository.mjs
