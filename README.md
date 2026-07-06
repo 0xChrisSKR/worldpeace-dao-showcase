@@ -165,7 +165,7 @@ WorldPeace DAO is the earliest public product in the portfolio lineage: WorldPea
 - Immune RPC Gate: https://github.com/0xChrisSKR/immune-rpc-gate
 - TRACE ProofFeed: https://github.com/TRACE-CChain-Labs/trace-prooffeed-solana-agent
 - TRACE AI Platform: https://github.com/0xChrisSKR/trace-ai-platform-showcase
-- GO2 Agent Lab (planned public repository): https://github.com/0xChrisSKR/go2-agent-lab
+- GO2 Agent Lab: https://github.com/0xChrisSKR/go2-agent-lab
 
 ## What A Reviewer Can Verify
 
